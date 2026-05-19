@@ -1,0 +1,516 @@
+/bin/sh: 1: /usr/bin/python3: not found
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+System Information:
+System: Linux
+Node Name: 5af30681d5d0
+Release: 6.12.54-linuxkit
+Machine: aarch64
+Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:07:01,319 - INFO - Pipeline started
+2026-05-19 08:07:01,319 - INFO - System: Linux
+2026-05-19 08:07:01,319 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:07:01,319 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:07:01,319 - INFO - Machine: aarch64
+2026-05-19 08:07:01,319 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:07:01,320 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:07:01,320 - INFO - Pipeline finished
+2026-05-19 08:08:01,370 - INFO - Pipeline started
+2026-05-19 08:08:01,370 - INFO - System: Linux
+2026-05-19 08:08:01,371 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:08:01,371 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:08:01,371 - INFO - Machine: aarch64
+2026-05-19 08:08:01,371 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:08:01,371 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:08:01,371 - INFO - Pipeline finished
+2026-05-19 08:09:01,419 - INFO - Pipeline started
+2026-05-19 08:09:01,419 - INFO - System: Linux
+2026-05-19 08:09:01,419 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:09:01,419 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:09:01,419 - INFO - Machine: aarch64
+2026-05-19 08:09:01,420 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:09:01,420 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:09:01,420 - INFO - Pipeline finished
+2026-05-19 08:10:01,471 - INFO - Pipeline started
+2026-05-19 08:10:01,471 - INFO - System: Linux
+2026-05-19 08:10:01,472 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:10:01,472 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:10:01,472 - INFO - Machine: aarch64
+2026-05-19 08:10:01,472 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:10:01,472 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:10:01,472 - INFO - Pipeline finished
+2026-05-19 08:11:01,514 - INFO - Pipeline started
+2026-05-19 08:11:01,514 - INFO - System: Linux
+2026-05-19 08:11:01,514 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:11:01,514 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:11:01,515 - INFO - Machine: aarch64
+2026-05-19 08:11:01,515 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:11:01,515 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:11:01,515 - INFO - Pipeline finished
+2026-05-19 08:12:01,561 - INFO - Pipeline started
+2026-05-19 08:12:01,561 - INFO - System: Linux
+2026-05-19 08:12:01,561 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:12:01,561 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:12:01,561 - INFO - Machine: aarch64
+2026-05-19 08:12:01,561 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:12:01,561 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:12:01,561 - INFO - Pipeline finished
+2026-05-19 08:13:01,611 - INFO - Pipeline started
+2026-05-19 08:13:01,611 - INFO - System: Linux
+2026-05-19 08:13:01,612 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:13:01,612 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:13:01,612 - INFO - Machine: aarch64
+2026-05-19 08:13:01,612 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:13:01,612 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:13:01,612 - INFO - Pipeline finished
+2026-05-19 08:14:01,661 - INFO - Pipeline started
+2026-05-19 08:14:01,661 - INFO - System: Linux
+2026-05-19 08:14:01,661 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:14:01,661 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:14:01,661 - INFO - Machine: aarch64
+2026-05-19 08:14:01,661 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:14:01,661 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:14:01,661 - INFO - Pipeline finished
+2026-05-19 08:15:01,711 - INFO - Pipeline started
+2026-05-19 08:15:01,711 - INFO - System: Linux
+2026-05-19 08:15:01,711 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:15:01,711 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:15:01,711 - INFO - Machine: aarch64
+2026-05-19 08:15:01,711 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:15:01,711 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:15:01,711 - INFO - Pipeline finished
+2026-05-19 08:16:01,755 - INFO - Pipeline started
+2026-05-19 08:16:01,756 - INFO - System: Linux
+2026-05-19 08:16:01,756 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:16:01,756 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:16:01,756 - INFO - Machine: aarch64
+2026-05-19 08:16:01,756 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:16:01,756 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:16:01,756 - INFO - Pipeline finished
+2026-05-19 08:17:01,801 - INFO - Pipeline started
+2026-05-19 08:17:01,801 - INFO - System: Linux
+2026-05-19 08:17:01,801 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:17:01,801 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:17:01,801 - INFO - Machine: aarch64
+2026-05-19 08:17:01,801 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:17:01,802 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:17:01,802 - INFO - Pipeline finished
+2026-05-19 08:18:01,842 - INFO - Pipeline started
+2026-05-19 08:18:01,842 - INFO - System: Linux
+2026-05-19 08:18:01,843 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:18:01,843 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:18:01,843 - INFO - Machine: aarch64
+2026-05-19 08:18:01,843 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:18:01,843 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:18:01,843 - INFO - Pipeline finished
+2026-05-19 08:19:01,892 - INFO - Pipeline started
+2026-05-19 08:19:01,892 - INFO - System: Linux
+2026-05-19 08:19:01,892 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:19:01,892 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:19:01,892 - INFO - Machine: aarch64
+2026-05-19 08:19:01,892 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:19:01,892 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:19:01,892 - INFO - Pipeline finished
+2026-05-19 08:20:01,940 - INFO - Pipeline started
+2026-05-19 08:20:01,940 - INFO - System: Linux
+2026-05-19 08:20:01,940 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:20:01,940 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:20:01,940 - INFO - Machine: aarch64
+2026-05-19 08:20:01,940 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:20:01,940 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:20:01,940 - INFO - Pipeline finished
+2026-05-19 08:21:01,994 - INFO - Pipeline started
+2026-05-19 08:21:01,994 - INFO - System: Linux
+2026-05-19 08:21:01,994 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:21:01,994 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:21:01,994 - INFO - Machine: aarch64
+2026-05-19 08:21:01,994 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:21:01,994 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:21:01,995 - INFO - Pipeline finished
+2026-05-19 08:22:02,044 - INFO - Pipeline started
+2026-05-19 08:22:02,045 - INFO - System: Linux
+2026-05-19 08:22:02,045 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:22:02,045 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:22:02,045 - INFO - Machine: aarch64
+2026-05-19 08:22:02,045 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:22:02,045 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:22:02,045 - INFO - Pipeline finished
+2026-05-19 08:23:01,084 - INFO - Pipeline started
+2026-05-19 08:23:01,084 - INFO - System: Linux
+2026-05-19 08:23:01,084 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:23:01,084 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:23:01,084 - INFO - Machine: aarch64
+2026-05-19 08:23:01,084 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:23:01,084 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:23:01,084 - INFO - Pipeline finished
+2026-05-19 08:24:01,125 - INFO - Pipeline started
+2026-05-19 08:24:01,125 - INFO - System: Linux
+2026-05-19 08:24:01,125 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:24:01,125 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:24:01,125 - INFO - Machine: aarch64
+2026-05-19 08:24:01,125 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:24:01,126 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:24:01,126 - INFO - Pipeline finished
+2026-05-19 08:25:01,161 - INFO - Pipeline started
+2026-05-19 08:25:01,161 - INFO - System: Linux
+2026-05-19 08:25:01,161 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:25:01,161 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:25:01,161 - INFO - Machine: aarch64
+2026-05-19 08:25:01,162 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:25:01,162 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:25:01,162 - INFO - Pipeline finished
+2026-05-19 08:26:01,199 - INFO - Pipeline started
+2026-05-19 08:26:01,199 - INFO - System: Linux
+2026-05-19 08:26:01,199 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:26:01,199 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:26:01,199 - INFO - Machine: aarch64
+2026-05-19 08:26:01,199 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:26:01,199 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:26:01,199 - INFO - Pipeline finished
+2026-05-19 08:27:01,236 - INFO - Pipeline started
+2026-05-19 08:27:01,236 - INFO - System: Linux
+2026-05-19 08:27:01,236 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:27:01,237 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:27:01,237 - INFO - Machine: aarch64
+2026-05-19 08:27:01,237 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:27:01,237 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:27:01,237 - INFO - Pipeline finished
+2026-05-19 08:28:01,279 - INFO - Pipeline started
+2026-05-19 08:28:01,279 - INFO - System: Linux
+2026-05-19 08:28:01,280 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:28:01,280 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:28:01,280 - INFO - Machine: aarch64
+2026-05-19 08:28:01,280 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:28:01,280 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:28:01,280 - INFO - Pipeline finished
+2026-05-19 08:29:01,320 - INFO - Pipeline started
+2026-05-19 08:29:01,320 - INFO - System: Linux
+2026-05-19 08:29:01,320 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:29:01,321 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:29:01,321 - INFO - Machine: aarch64
+2026-05-19 08:29:01,321 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:29:01,321 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:29:01,321 - INFO - Pipeline finished
+2026-05-19 08:30:01,365 - INFO - Pipeline started
+2026-05-19 08:30:01,365 - INFO - System: Linux
+2026-05-19 08:30:01,365 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:30:01,366 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:30:01,366 - INFO - Machine: aarch64
+2026-05-19 08:30:01,366 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:30:01,366 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:30:01,366 - INFO - Pipeline finished
+2026-05-19 08:31:01,414 - INFO - Pipeline started
+2026-05-19 08:31:01,414 - INFO - System: Linux
+2026-05-19 08:31:01,414 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:31:01,414 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:31:01,414 - INFO - Machine: aarch64
+2026-05-19 08:31:01,414 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:31:01,414 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:31:01,414 - INFO - Pipeline finished
+2026-05-19 08:32:01,458 - INFO - Pipeline started
+2026-05-19 08:32:01,458 - INFO - System: Linux
+2026-05-19 08:32:01,458 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:32:01,459 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:32:01,459 - INFO - Machine: aarch64
+2026-05-19 08:32:01,459 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:32:01,459 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:32:01,459 - INFO - Pipeline finished
+2026-05-19 08:33:01,518 - INFO - Pipeline started
+2026-05-19 08:33:01,519 - INFO - System: Linux
+2026-05-19 08:33:01,519 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:33:01,519 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:33:01,519 - INFO - Machine: aarch64
+2026-05-19 08:33:01,519 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:33:01,519 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:33:01,519 - INFO - Pipeline finished
+2026-05-19 08:34:01,565 - INFO - Pipeline started
+2026-05-19 08:34:01,565 - INFO - System: Linux
+2026-05-19 08:34:01,565 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:34:01,565 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:34:01,565 - INFO - Machine: aarch64
+2026-05-19 08:34:01,566 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:34:01,566 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:34:01,566 - INFO - Pipeline finished
+2026-05-19 08:35:01,611 - INFO - Pipeline started
+2026-05-19 08:35:01,611 - INFO - System: Linux
+2026-05-19 08:35:01,611 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:35:01,611 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:35:01,611 - INFO - Machine: aarch64
+2026-05-19 08:35:01,611 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:35:01,611 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:35:01,611 - INFO - Pipeline finished
+2026-05-19 08:36:01,663 - INFO - Pipeline started
+2026-05-19 08:36:01,664 - INFO - System: Linux
+2026-05-19 08:36:01,664 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:36:01,664 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:36:01,664 - INFO - Machine: aarch64
+2026-05-19 08:36:01,664 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:36:01,664 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:36:01,664 - INFO - Pipeline finished
+2026-05-19 08:37:01,710 - INFO - Pipeline started
+2026-05-19 08:37:01,710 - INFO - System: Linux
+2026-05-19 08:37:01,710 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:37:01,710 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:37:01,710 - INFO - Machine: aarch64
+2026-05-19 08:37:01,710 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:37:01,710 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:37:01,710 - INFO - Pipeline finished
+2026-05-19 08:38:01,761 - INFO - Pipeline started
+2026-05-19 08:38:01,762 - INFO - System: Linux
+2026-05-19 08:38:01,762 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:38:01,762 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:38:01,762 - INFO - Machine: aarch64
+2026-05-19 08:38:01,762 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:38:01,762 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:38:01,762 - INFO - Pipeline finished
+2026-05-19 08:39:01,810 - INFO - Pipeline started
+2026-05-19 08:39:01,810 - INFO - System: Linux
+2026-05-19 08:39:01,810 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:39:01,811 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:39:01,811 - INFO - Machine: aarch64
+2026-05-19 08:39:01,811 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:39:01,811 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:39:01,811 - INFO - Pipeline finished
+2026-05-19 08:40:01,860 - INFO - Pipeline started
+2026-05-19 08:40:01,860 - INFO - System: Linux
+2026-05-19 08:40:01,860 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:40:01,860 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:40:01,861 - INFO - Machine: aarch64
+2026-05-19 08:40:01,861 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:40:01,861 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:40:01,861 - INFO - Pipeline finished
+2026-05-19 08:41:01,906 - INFO - Pipeline started
+2026-05-19 08:41:01,906 - INFO - System: Linux
+2026-05-19 08:41:01,906 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:41:01,906 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:41:01,906 - INFO - Machine: aarch64
+2026-05-19 08:41:01,906 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:41:01,906 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:41:01,906 - INFO - Pipeline finished
+2026-05-19 08:42:01,952 - INFO - Pipeline started
+2026-05-19 08:42:01,952 - INFO - System: Linux
+2026-05-19 08:42:01,952 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:42:01,952 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:42:01,952 - INFO - Machine: aarch64
+2026-05-19 08:42:01,952 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:42:01,952 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:42:01,952 - INFO - Pipeline finished
+2026-05-19 08:43:02,004 - INFO - Pipeline started
+2026-05-19 08:43:02,005 - INFO - System: Linux
+2026-05-19 08:43:02,005 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:43:02,005 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:43:02,005 - INFO - Machine: aarch64
+2026-05-19 08:43:02,005 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:43:02,005 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:43:02,005 - INFO - Pipeline finished
+2026-05-19 08:44:01,054 - INFO - Pipeline started
+2026-05-19 08:44:01,054 - INFO - System: Linux
+2026-05-19 08:44:01,054 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:44:01,054 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:44:01,054 - INFO - Machine: aarch64
+2026-05-19 08:44:01,054 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:44:01,054 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:44:01,054 - INFO - Pipeline finished
+2026-05-19 08:45:01,105 - INFO - Pipeline started
+2026-05-19 08:45:01,105 - INFO - System: Linux
+2026-05-19 08:45:01,105 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:45:01,105 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:45:01,105 - INFO - Machine: aarch64
+2026-05-19 08:45:01,106 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:45:01,106 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:45:01,106 - INFO - Pipeline finished
+2026-05-19 08:46:01,156 - INFO - Pipeline started
+2026-05-19 08:46:01,156 - INFO - System: Linux
+2026-05-19 08:46:01,156 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:46:01,156 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:46:01,156 - INFO - Machine: aarch64
+2026-05-19 08:46:01,157 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:46:01,157 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:46:01,157 - INFO - Pipeline finished
+2026-05-19 08:47:01,208 - INFO - Pipeline started
+2026-05-19 08:47:01,208 - INFO - System: Linux
+2026-05-19 08:47:01,208 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:47:01,208 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:47:01,208 - INFO - Machine: aarch64
+2026-05-19 08:47:01,208 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:47:01,209 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:47:01,209 - INFO - Pipeline finished
+2026-05-19 08:48:01,262 - INFO - Pipeline started
+2026-05-19 08:48:01,262 - INFO - System: Linux
+2026-05-19 08:48:01,262 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:48:01,262 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:48:01,262 - INFO - Machine: aarch64
+2026-05-19 08:48:01,263 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:48:01,263 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:48:01,263 - INFO - Pipeline finished
+2026-05-19 08:49:01,310 - INFO - Pipeline started
+2026-05-19 08:49:01,310 - INFO - System: Linux
+2026-05-19 08:49:01,310 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:49:01,310 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:49:01,310 - INFO - Machine: aarch64
+2026-05-19 08:49:01,310 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:49:01,310 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:49:01,310 - INFO - Pipeline finished
+2026-05-19 08:50:01,357 - INFO - Pipeline started
+2026-05-19 08:50:01,357 - INFO - System: Linux
+2026-05-19 08:50:01,357 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:50:01,357 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:50:01,357 - INFO - Machine: aarch64
+2026-05-19 08:50:01,358 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:50:01,358 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:50:01,358 - INFO - Pipeline finished
+2026-05-19 08:51:01,409 - INFO - Pipeline started
+2026-05-19 08:51:01,409 - INFO - System: Linux
+2026-05-19 08:51:01,409 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:51:01,409 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:51:01,409 - INFO - Machine: aarch64
+2026-05-19 08:51:01,410 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:51:01,410 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:51:01,410 - INFO - Pipeline finished
+2026-05-19 08:52:01,462 - INFO - Pipeline started
+2026-05-19 08:52:01,462 - INFO - System: Linux
+2026-05-19 08:52:01,462 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:52:01,462 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:52:01,462 - INFO - Machine: aarch64
+2026-05-19 08:52:01,462 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:52:01,462 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:52:01,462 - INFO - Pipeline finished
+2026-05-19 08:53:01,514 - INFO - Pipeline started
+2026-05-19 08:53:01,514 - INFO - System: Linux
+2026-05-19 08:53:01,514 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:53:01,514 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:53:01,514 - INFO - Machine: aarch64
+2026-05-19 08:53:01,514 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:53:01,514 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:53:01,515 - INFO - Pipeline finished
+2026-05-19 08:54:01,561 - INFO - Pipeline started
+2026-05-19 08:54:01,561 - INFO - System: Linux
+2026-05-19 08:54:01,561 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:54:01,561 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:54:01,561 - INFO - Machine: aarch64
+2026-05-19 08:54:01,561 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:54:01,561 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:54:01,561 - INFO - Pipeline finished
+2026-05-19 08:55:01,607 - INFO - Pipeline started
+2026-05-19 08:55:01,607 - INFO - System: Linux
+2026-05-19 08:55:01,607 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:55:01,607 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:55:01,607 - INFO - Machine: aarch64
+2026-05-19 08:55:01,607 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:55:01,607 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:55:01,608 - INFO - Pipeline finished
+2026-05-19 08:56:01,659 - INFO - Pipeline started
+2026-05-19 08:56:01,659 - INFO - System: Linux
+2026-05-19 08:56:01,659 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:56:01,659 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:56:01,659 - INFO - Machine: aarch64
+2026-05-19 08:56:01,660 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:56:01,660 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:56:01,660 - INFO - Pipeline finished
+2026-05-19 08:57:01,710 - INFO - Pipeline started
+2026-05-19 08:57:01,710 - INFO - System: Linux
+2026-05-19 08:57:01,710 - INFO - Node Name: 5af30681d5d0
+2026-05-19 08:57:01,711 - INFO - Release: 6.12.54-linuxkit
+2026-05-19 08:57:01,711 - INFO - Machine: aarch64
+2026-05-19 08:57:01,711 - INFO - Python Version: 3.9.25 (main, Oct 31 2025, 23:16:58) 
+[GCC 14.2.0]
+2026-05-19 08:57:01,711 - INFO - Execution time: 0.0 seconds
+2026-05-19 08:57:01,711 - INFO - Pipeline finished

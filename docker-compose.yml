@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  pipeline:
+    build: .
+    container_name: book_pipeline
+    volumes:
+      - ./data:/app/data

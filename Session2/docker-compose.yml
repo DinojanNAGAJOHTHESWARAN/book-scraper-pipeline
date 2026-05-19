@@ -1,0 +1,7 @@
+services:
+  python-app:
+    build: .
+    volumes:
+      - ./src:/app
+      - ./data:/data
+    container_name: python-app
