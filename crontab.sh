@@ -11,4 +11,6 @@
 
 #* * * * * echo "Hello World" >> /app/result.output 2>&1
 #run a command every minute
-40 * * * * /usr/local/bin/python3 /app/main.py >> /data/result.output 2>&1
+#min, hour, dayOfMonth, month, dayOfWeek, command
+
+* * * * * cd /app/App && /app/venv/bin/python -u main.py >> /app/data/result.output 2>&1

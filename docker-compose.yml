@@ -1,8 +1,7 @@
-version: "3"
-
 services:
   pipeline:
     build: .
     container_name: book_pipeline
+    restart: always
     volumes:
       - ./data:/app/data

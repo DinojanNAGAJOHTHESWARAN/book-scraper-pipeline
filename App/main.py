@@ -1,7 +1,7 @@
 import logging
 import time
 
-from scraper import scrape_books
+from scraper import scrape_books, get_request_count
 from transform import clean_data, save_csv
 
 
@@ -23,12 +23,14 @@ def main():
             return
 
         logging.info(f"{len(data)} livres récupérés avant nettoyage")
+        request_count = get_request_count()
+        logging.info(f"Nombre total de requêtes HTTP : {request_count}")
 
         df = clean_data(data)
 
         logging.info(f"{len(df)} lignes prêtes à être sauvegardées")
 
-        save_csv(df, "data/books.csv")
+        save_csv(df, "/app/data/books.csv")
 
         execution_time = round(time.time() - start_time, 2)
         logging.info(f"Temps d'exécution total : {execution_time} secondes")

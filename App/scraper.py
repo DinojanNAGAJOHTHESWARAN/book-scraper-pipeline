@@ -5,16 +5,21 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://books.toscrape.com/catalogue/page-{}.html"
-BOOK_BASE_URL = "https://books.toscrape.com/catalogue/"
+HOME_URL = "https://books.toscrape.com/"
 TIMEOUT = 5
 MAX_RETRIES = 2
 RETRY_DELAY = 1
 DEFAULT_TEXT = "Unknown"
 
+REQUEST_COUNT = 0
+
 
 def fetch_page(url):
+    global REQUEST_COUNT
+
     for attempt in range(1, MAX_RETRIES + 2):
+        REQUEST_COUNT += 1
+
         try:
             logging.info(f"Tentative {attempt}/{MAX_RETRIES + 1} : chargement de {url}")
 
@@ -23,20 +28,10 @@ def fetch_page(url):
             if response.status_code == 200:
                 return response.text
 
-            logging.error(
-                f"Erreur HTTP {response.status_code} pour l'URL : {url}"
-            )
+            logging.error(f"Erreur HTTP {response.status_code} pour l'URL : {url}")
 
-            if response.status_code == 404:
-                logging.warning(f"Page inexistante : {url}")
+            if response.status_code in [401, 403, 404]:
                 return None
-
-            if response.status_code in [401, 403]:
-                logging.error(f"Accès refusé pour l'URL : {url}")
-                return None
-
-            if response.status_code >= 500:
-                logging.warning(f"Erreur serveur temporaire possible : {url}")
 
         except requests.exceptions.Timeout:
             logging.error(f"Timeout après {TIMEOUT}s pour l'URL : {url}")
@@ -102,49 +97,49 @@ def extract_rating(article):
         return DEFAULT_TEXT
 
     except Exception as error:
-        logging.error(f"Erreur lors de l'extraction de la note : {error}")
+        logging.error(f"Erreur extraction note : {error}")
         return DEFAULT_TEXT
 
 
-def extract_category(book_url):
-    html = fetch_page(book_url)
+def extract_categories():
+    html = fetch_page(HOME_URL)
 
     if html is None:
-        logging.warning(f"Catégorie non récupérée, URL produit inaccessible : {book_url}")
-        return DEFAULT_TEXT
+        logging.error("Impossible de récupérer la page d'accueil.")
+        return []
 
     try:
         soup = BeautifulSoup(html, "html.parser")
-        breadcrumb = soup.find("ul", class_="breadcrumb")
+        category_links = soup.select(".side_categories ul li ul li a")
 
-        if breadcrumb is None:
-            logging.warning(f"Breadcrumb introuvable pour : {book_url}")
-            return DEFAULT_TEXT
+        if not category_links:
+            logging.error("Aucune catégorie trouvée dans le menu de gauche.")
+            return []
 
-        items = breadcrumb.find_all("li")
+        categories = []
 
-        if len(items) < 3:
-            logging.warning(f"Catégorie absente ou breadcrumb incomplet pour : {book_url}")
-            return DEFAULT_TEXT
+        for link in category_links:
+            category_name = get_text(link, "category_name")
+            category_href = get_attribute(link, "href", "category_link", default=None)
 
-        category = get_text(items[2], "category")
+            if not category_href:
+                logging.warning(f"Lien manquant pour la catégorie : {category_name}")
+                continue
 
-        if category == DEFAULT_TEXT:
-            logging.warning(f"Nom de catégorie invalide pour : {book_url}")
+            categories.append({
+                "name": category_name,
+                "url": urljoin(HOME_URL, category_href)
+            })
 
-        return category
+        logging.info(f"{len(categories)} catégories récupérées")
+        return categories
 
     except Exception as error:
-        logging.error(f"Erreur parsing catégorie pour {book_url} : {error}")
-        return DEFAULT_TEXT
+        logging.exception(f"Erreur extraction catégories : {error}")
+        return []
 
 
-def extract_author(book_url):
-    logging.info(f"Auteur non disponible sur Books to Scrape : {book_url}")
-    return DEFAULT_TEXT
-
-
-def extract_book(article, page_number):
+def extract_book(article, category_name, page_url):
     try:
         title_tag = article.select_one("h3 a")
         price_tag = article.find("p", class_="price_color")
@@ -154,79 +149,109 @@ def extract_book(article, page_number):
         rating = extract_rating(article)
 
         book_link = get_attribute(title_tag, "href", "book_link", default=None)
+        source_url = urljoin(page_url, book_link) if book_link else DEFAULT_TEXT
 
-        if book_link:
-            book_url = urljoin(BOOK_BASE_URL, book_link)
-        else:
-            logging.warning(f"Lien produit manquant pour le livre : {title}")
-            book_url = DEFAULT_TEXT
-
-        if book_url != DEFAULT_TEXT:
-            category = extract_category(book_url)
-            author = extract_author(book_url)
-        else:
-            category = DEFAULT_TEXT
-            author = DEFAULT_TEXT
+        if source_url == DEFAULT_TEXT:
+            logging.warning(f"URL du livre manquante pour : {title}")
 
         return {
             "title": title,
-            "author": author,
+            "author": DEFAULT_TEXT,
             "price": price,
             "rating": rating,
-            "category": category,
-            "source_url": book_url,
-            "page_number": page_number
+            "category": category_name,
+            "source_url": source_url
         }
 
     except Exception as error:
-        logging.exception(f"Livre ignoré sur la page {page_number} : {error}")
+        logging.exception(f"Livre ignoré dans la catégorie {category_name} : {error}")
         return None
 
 
-def scrape_books(max_pages=50):
-    books = []
-    pages_without_books = 0
+def get_next_page_url(soup, current_url):
+    try:
+        next_link = soup.select_one("li.next a")
 
-    for page in range(1, max_pages + 1):
-        url = BASE_URL.format(page)
-        html = fetch_page(url)
+        if next_link is None:
+            return None
+
+        href = get_attribute(next_link, "href", "next_page", default=None)
+
+        if not href:
+            logging.warning(f"Lien next invalide depuis : {current_url}")
+            return None
+
+        return urljoin(current_url, href)
+
+    except Exception as error:
+        logging.error(f"Erreur pagination depuis {current_url} : {error}")
+        return None
+
+
+def scrape_category(category):
+    books = []
+    category_name = category["name"]
+    current_url = category["url"]
+    page_number = 1
+
+    while current_url:
+        html = fetch_page(current_url)
 
         if html is None:
-            logging.warning(f"Page {page} ignorée : {url}")
-            pages_without_books += 1
-
-            if pages_without_books >= 2:
-                logging.warning("Arrêt pagination : plusieurs pages consécutives invalides.")
-                break
-
-            continue
+            logging.warning(f"Page ignorée pour la catégorie {category_name} : {current_url}")
+            break
 
         try:
             soup = BeautifulSoup(html, "html.parser")
             articles = soup.find_all("article", class_="product_pod")
 
             if not articles:
-                logging.warning(f"Aucun livre trouvé sur la page {page} : {url}")
-                pages_without_books += 1
+                logging.warning(
+                    f"Aucun livre trouvé pour {category_name}, page {page_number} : {current_url}"
+                )
+                break
 
-                if pages_without_books >= 2:
-                    logging.warning("Arrêt pagination : plusieurs pages consécutives sans livres.")
-                    break
-
-                continue
-
-            pages_without_books = 0
-            logging.info(f"Page {page} : {len(articles)} livres trouvés")
+            logging.info(
+                f"Catégorie {category_name} - page {page_number} : {len(articles)} livres trouvés"
+            )
 
             for article in articles:
-                book = extract_book(article, page)
+                book = extract_book(article, category_name, current_url)
 
                 if book is not None:
+                    book["page_number"] = page_number
                     books.append(book)
 
-        except Exception as error:
-            logging.exception(f"Erreur parsing page {page} : {error}")
-            continue
+            current_url = get_next_page_url(soup, current_url)
+            page_number += 1
 
-    logging.info(f"Scraping terminé : {len(books)} livres récupérés")
+        except Exception as error:
+            logging.exception(
+                f"Erreur parsing catégorie {category_name}, page {page_number} : {error}"
+            )
+            break
+
+    logging.info(f"Catégorie {category_name} terminée : {len(books)} livres récupérés")
     return books
+
+
+def scrape_books():
+    all_books = []
+    categories = extract_categories()
+
+    if not categories:
+        logging.error("Scraping arrêté : aucune catégorie disponible.")
+        return []
+
+    for category in categories:
+        books = scrape_category(category)
+        all_books.extend(books)
+
+    logging.info(f"Scraping terminé : {len(all_books)} livres récupérés")
+    logging.info(f"Nombre total de requêtes HTTP : {REQUEST_COUNT}")
+
+    return all_books
+
+
+def get_request_count():
+    return REQUEST_COUNT
